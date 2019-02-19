@@ -7,11 +7,13 @@
 $ git init 
 ```
 	
-3. ``` 
+3. 
+``` 
 $ git add . 
 ```
 
-4. ``` 
+4. 
+``` 
 $ git commit -m 'First commit' 
 ```
 
@@ -22,6 +24,7 @@ $ git remote add origin *remote repository URL*
 
 $ git remote -v
 ```
-6.```
+6.
+```
 git push -u origin master
 ```
