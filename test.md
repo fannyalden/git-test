@@ -28,3 +28,8 @@ $ git remote -v
 ```
 git push -u origin master
 ```
+
+
+
+Remove pushed commits
+https://stackoverflow.com/questions/6459080/how-can-i-undo-a-git-commit-locally-and-on-a-remote-after-git-push
