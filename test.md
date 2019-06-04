@@ -33,3 +33,13 @@ git push -u origin master
 
 Remove pushed commits
 https://stackoverflow.com/questions/6459080/how-can-i-undo-a-git-commit-locally-and-on-a-remote-after-git-push
+
+
+Get remote branch locally
+https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch
+git checkout -b test <name of remote>/test
+
+Stash
+git stash - your modified tracked files and staged changes, saves it on a stack of unfinished changes that you can reapply at any time.
+git stash apply stash@{2} - If you don’t specify a stash, Git assumes the most recent stash and tries to apply it
+git stash pop - apply the stash and then immediately drop it from your stack.
